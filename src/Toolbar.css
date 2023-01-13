@@ -13,8 +13,8 @@
     height: 4vmin;
 }
 
-button {
-    height: 4vmin;
+li {
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
