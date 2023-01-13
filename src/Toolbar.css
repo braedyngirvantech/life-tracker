@@ -1,0 +1,45 @@
+.toolBar {
+  display:inline-flex;
+  background-color: #282c34;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  min-width: 100%;
+}
+
+.toolbar-logo {
+    height: 4vmin;
+}
+
+button {
+    height: 4vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .toolbar-logo {
+    animation: toolbar-logo-spin infinite 1.5s linear;
+  }
+}
+
+@keyframes toolbar-logo-spin {
+    0% {
+      transform: rotate(-10deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+      transform: rotate(-10deg);
+    }
+  }
+
+a {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
