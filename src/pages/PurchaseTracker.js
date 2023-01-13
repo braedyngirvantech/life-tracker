@@ -2,8 +2,8 @@ import './PurchaseTracker.css';
 
 function PurchaseTracker() {
   return (
-    <div>
-      <h1>hi</h1>
+    <div className='tracker-container'>
+      <h1>Purchase Tracker</h1>
     </div>
   );
 }

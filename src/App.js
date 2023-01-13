@@ -1,15 +1,18 @@
 import './App.css';
 import Toolbar from './Toolbar.js';
-import PurchaseTracker from './pages/PurchaseTracker';
 import Tracker from './Tracker';
+import { useState } from 'react';
 
 function App() {
+  const [trackerSelection, setTrackerSelection] = useState("purchase");
+  const updateTrackerSelection = (newSelection) => {
+    setTrackerSelection(newSelection);
+  } 
+
   return (
     <div className="App">
-      <Toolbar/>
-      <header className="App-header">
-      </header>
-      <Tracker/>
+      <Toolbar selection={updateTrackerSelection}/>
+      <Tracker selection={trackerSelection}/>
     </div>
   );
 }

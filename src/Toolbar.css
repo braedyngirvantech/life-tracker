@@ -10,7 +10,7 @@
 }
 
 .toolbar-logo {
-    height: 4vmin;
+    height: 20vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -31,9 +31,18 @@
     }
   }
 
-.a {
+select {
+  font-size: 8vmin;
   justify-content: left;
     text-decoration: none;
+    background-color: #282c34;
     color: white;
     text-align: left;
+    outline:none;
+    border: none;
+    width: fit-content + 5px;
+}
+
+option {
+  font-size: 3vmin;
 }
