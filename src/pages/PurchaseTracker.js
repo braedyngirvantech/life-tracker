@@ -1,14 +1,9 @@
 import './PurchaseTracker.css';
-import Toolbar from '../Toolbar.js';
 
-function App() {
+function PurchaseTracker() {
   return (
-    <div className="App">
-      <Toolbar/>
-      <div></div>
-      <Toolbar/>
-      <header className="App-header">
-      </header>
+    <div>
+      <h1>hi</h1>
     </div>
   );
 }

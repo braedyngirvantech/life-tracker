@@ -13,10 +13,6 @@
     height: 4vmin;
 }
 
-li {
-  
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .toolbar-logo {
     animation: toolbar-logo-spin infinite 1.5s linear;
@@ -35,11 +31,9 @@ li {
     }
   }
 
-a {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
+.a {
+  justify-content: left;
     text-decoration: none;
-    color: initial;
+    color: white;
+    text-align: left;
 }
