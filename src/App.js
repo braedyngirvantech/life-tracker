@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div className="App">
-      <Toolbar selection={updateTrackerSelection}/>
+      <Toolbar currentTracker={trackerSelection} chooseTracker={updateTrackerSelection}/>
       <Tracker selection={trackerSelection}/>
     </div>
   );
