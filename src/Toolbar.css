@@ -17,6 +17,10 @@
   .toolbar-logo {
     animation: toolbar-logo-spin infinite 1.5s linear;
   }
+
+  .toolbar-logo:hover {
+    animation: toolbar-logo-runaway 2s linear;
+  }
 }
 
 @keyframes toolbar-logo-spin {
@@ -30,6 +34,15 @@
       transform: rotate(-10deg);
     }
   }
+
+@keyframes toolbar-logo-runaway {
+  from {
+    transform: translate(0px);
+  }
+  to {
+    transform: translate(110vmin);
+  }
+}
 
 select {
   font-size: 8vmin;

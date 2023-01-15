@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import bankcardicon from './BankCardIcon.svg';
 import burgericon from './BurgerIcon.svg';
 

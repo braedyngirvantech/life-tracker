@@ -8,6 +8,8 @@ function Tracker(props){
         return <PurchaseTracker/>;
         case  'food':
         return <FoodTracker/>;
+        default:
+            return <PurchaseTracker/>
     }
 }
 

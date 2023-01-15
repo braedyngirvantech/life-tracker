@@ -5,9 +5,19 @@
     border: 3px solid black;
     min-height: 50vh;
     background-color:rgb(82, 26, 110);
-}
-
-h1 {
     color: white;
     text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    text-align: left;
+}
+
+td select {
+    height: fit-content;
+    font-size: 4vmin;
 }
