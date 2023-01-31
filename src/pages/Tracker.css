@@ -21,3 +21,8 @@ td select {
     height: fit-content;
     font-size: 4vmin;
 }
+
+h1 {
+    color: white;
+    text-align: center;
+}

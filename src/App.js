@@ -1,9 +1,9 @@
 import './App.css';
 import Toolbar from './Toolbar.js';
-import Tracker from './Tracker';
+import Tracker from './pages/Tracker.js';
 import { useState } from 'react';
 
-function App() {
+export default function App() {
   const [trackerSelection, setTrackerSelection] = useState("purchase");
   const updateTrackerSelection = (newSelection) => {
     setTrackerSelection(newSelection);
@@ -16,5 +16,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
