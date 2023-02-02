@@ -20,7 +20,7 @@ export default function Toolbar(props){
 				<option value='hygiene'>Hygiene Tracker</option>
 				<option value='debt'>Debt Tracker</option>
 				<option value='lending'>Lending Tracker</option>
-				<option value='property'>Property Tracker</option>
+				<option value='asset'>Asset Tracker</option>
 			</select>
 		</div>
 	);
